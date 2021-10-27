@@ -2,8 +2,7 @@
         display: flex;
         flex-direction: column;
         justify-content: center;
-        background-color: hsl(225, 100%, 98%);
-        background-image: url('/images/pattern-background-desktop.svg');
+        background-image: linear-gradient(to right top, #8ba2ff, #92a7fd, #9aadfa, #a1b2f8, #a8b7f5, #b1bef5, #b9c5f5, #c2ccf5, #cfd7f8, #dbe1fa, #e8ecfd, #f5f7ff);
         background-repeat: no-repeat;
         background-size: cover;
         height: 100vh;
@@ -19,7 +18,7 @@
     .card {
         width: 23%;
         border-radius: 20px;
-        background-color: #fff;
+        background-color: transparent;
         padding-bottom: 20px;
         -webkit-box-shadow: 0px 5px 20px -1px rgba(0, 0, 0, 0.32);
         box-shadow: 0px 5px 20px -1px rgba(0, 0, 0, 0.32);
@@ -29,7 +28,7 @@
         font-size: 16px;
         width: 75%;
         text-align: center;
-        color: hsl(224, 23%, 55%);
+        color: hsl(224, 18%, 41%);
         line-height: 25px;
     }
     
@@ -99,7 +98,7 @@
     }
     
     a.proceed {
-        background-color: hsl(245, 75%, 52%);
+        background-color: #3829e0;
         width: 80%;
         padding: 3% 0;
         border-radius: 12px;
@@ -113,7 +112,7 @@
     }
     
     a.cancel {
-        color: hsl(224, 23%, 55%);
+        color: hsl(224, 18%, 41%);
         margin: 0 0 20px;
         font-weight: 900;
         text-decoration: none;
